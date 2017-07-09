@@ -1,0 +1,7 @@
+<templateSet group="JavaScript">
+  <template name="ifNotNullOrUndefined" value="let variable2 = variable1  || '';&#10;&#10;//long Hand if (variable1 !== null || variable1 !== undefined || variable1 !== '') { let variable2 = variable1; }" description="if Var not null or Underfined" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
