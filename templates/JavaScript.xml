@@ -4,4 +4,34 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="arrayString" value="let a = [&quot;myString1&quot;, &quot;myString2&quot;, &quot;myString3&quot;];&#10;//let a = new Array(); a[0] = &quot;myString1&quot;; a[1] = &quot;myString2&quot;; a[2] = &quot;myString3&quot;;&#10;" description="arrayString" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ifTureElse" value="let big = x &gt; 10 ? true : false;&#10;&#10;//let big;&#10;if (x &gt; 10) {&#10;    big = true;&#10;}&#10;else {&#10;    big = false;&#10;}&#10;&#10;" description="if True Else" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="varx3" value="let x, y, z=3;&#10;" description="JavaScript hoist" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="regex" value="var result = /d+(.)+d+/igm.exec(&quot;padding 01234 text text 56789 padding&quot;);&#10;console.log(result); //&quot;01234 text text 56789&quot;" description="regex template" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="funcX2" value="function x() {console.log('x')};function y() {console.log('y')};let z = 3;&#10;(z==3?x:y)();&#10;&#10;//function x() {console.log('x')};function y() {console.log('y')};&#10;let z = 3;&#10;if (z == 3) &#10;{&#10;    x();&#10;} else &#10;{&#10;    y();&#10;}" description="func of func" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="1e7" value="1e7" description="1 0 000 000" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
