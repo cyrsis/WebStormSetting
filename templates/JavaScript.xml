@@ -34,4 +34,10 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="exportdefault" value="export default $classname$;" description="export default $classname$;" toReformat="true" toShortenFQNames="true">
+    <variable name="classname" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
