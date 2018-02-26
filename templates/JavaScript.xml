@@ -40,4 +40,9 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="StatusBarHidden" value="&lt;StatusBar hidde={true}/&gt;" description="&lt;StatusBar hidde={true}/&gt;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
