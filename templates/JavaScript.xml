@@ -45,4 +45,9 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="newstyleView" value="const Container = styled.View`&#10;  display: flex;&#10;  width: 100%;&#10;  height: 100%;&#10;  background-color: ${COLORS.GREY.BLACK_RUSSIAN};&#10;`;" description="const Container = styled.View`" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
