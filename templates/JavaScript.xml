@@ -1,5 +1,5 @@
 <templateSet group="JavaScript">
-    <template name="componentWillMount" value="componentWillMount() {&#10;  $END$&#10;}" description="componentWillMount" toReformat="true" toShortenFQNames="true">
+  <template name="componentWillMount" value="componentWillMount() {&#10;  $END$&#10;}" description="componentWillMount" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JSX_HTML" value="false" />
@@ -66,10 +66,10 @@
     </context>
   </template>
   <template name="Button" value="Button" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
-      <context>
-          <option name="JAVA_SCRIPT" value="true" />
-          <option name="JSX_HTML" value="false" />
-      </context>
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
   </template>
   <template name="DatePickerIOS" value="DatePickerIOS" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
     <context>
@@ -84,10 +84,10 @@
     </context>
   </template>
   <template name="FlatList" value="FlatList" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
-      <context>
-          <option name="JAVA_SCRIPT" value="true" />
-          <option name="JSX_HTML" value="false" />
-      </context>
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
   </template>
   <template name="Image" value="Image" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
     <context>
@@ -96,28 +96,28 @@
     </context>
   </template>
   <template name="ImageEditor" value="ImageEditor" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
-      <context>
-          <option name="JAVA_SCRIPT" value="true" />
-          <option name="JSX_HTML" value="false" />
-      </context>
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
   </template>
   <template name="ImageStore" value="ImageStore" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
-      <context>
-          <option name="JAVA_SCRIPT" value="true" />
-          <option name="JSX_HTML" value="false" />
-      </context>
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
   </template>
   <template name="ImageBackground" value="ImageBackground" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
-      <context>
-          <option name="JAVA_SCRIPT" value="true" />
-          <option name="JSX_HTML" value="false" />
-      </context>
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
   </template>
-  <template name="KeyboardAvoidingView" value="KeyboardAvoidingView" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
-      <context>
-          <option name="JAVA_SCRIPT" value="true" />
-          <option name="JSX_HTML" value="false" />
-      </context>
+  <template name="KeyboardAvoidingView" value="KeyboardAvoidingView" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
   </template>
   <template name="ListView" value="ListView" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
     <context>
@@ -126,10 +126,10 @@
     </context>
   </template>
   <template name="MaskedViewIOS" value="MaskedViewIOS" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
-      <context>
-          <option name="JAVA_SCRIPT" value="true" />
-          <option name="JSX_HTML" value="false" />
-      </context>
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
   </template>
   <template name="MapView" value="MapView" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
     <context>
@@ -192,10 +192,10 @@
     </context>
   </template>
   <template name="SectionList" value="SectionList" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
-      <context>
-          <option name="JAVA_SCRIPT" value="true" />
-          <option name="JSX_HTML" value="false" />
-      </context>
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
   </template>
   <template name="SegmentedControlIOS" value="SegmentedControlIOS" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
     <context>
@@ -228,10 +228,10 @@
     </context>
   </template>
   <template name="SwipeableListView" value="SwipeableListView" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
-      <context>
-          <option name="JAVA_SCRIPT" value="true" />
-          <option name="JSX_HTML" value="false" />
-      </context>
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
   </template>
   <template name="SnapshotViewIOS" value="SnapshotViewIOS" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
     <context>
@@ -252,12 +252,6 @@
     </context>
   </template>
   <template name="SwitchIOS" value="SwitchIOS" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-      <option name="JSX_HTML" value="false" />
-    </context>
-  </template>
-  <template name="SwipeableListView" value="SwipeableListView" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JSX_HTML" value="false" />
@@ -342,10 +336,10 @@
     </context>
   </template>
   <template name="VirtualizedList" value="VirtualizedList" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
-      <context>
-          <option name="JAVA_SCRIPT" value="true" />
-          <option name="JSX_HTML" value="false" />
-      </context>
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
   </template>
   <template name="WebView" value="WebView" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
     <context>
@@ -414,10 +408,10 @@
     </context>
   </template>
   <template name="BackHandler" value="BackHandler" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
-      <context>
-          <option name="JAVA_SCRIPT" value="true" />
-          <option name="JSX_HTML" value="false" />
-      </context>
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
   </template>
   <template name="CameraRoll" value="CameraRoll" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
     <context>
@@ -438,10 +432,10 @@
     </context>
   </template>
   <template name="DeviceInfo" value="DeviceInfo" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
-      <context>
-          <option name="JAVA_SCRIPT" value="true" />
-          <option name="JSX_HTML" value="false" />
-      </context>
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
   </template>
   <template name="Dimensions" value="Dimensions" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
     <context>
@@ -456,10 +450,10 @@
     </context>
   </template>
   <template name="findNodeHandle" value="findNodeHandle" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
-      <context>
-          <option name="JAVA_SCRIPT" value="true" />
-          <option name="JSX_HTML" value="false" />
-      </context>
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
   </template>
   <template name="I18nManager" value="I18nManager" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
     <context>
@@ -474,12 +468,6 @@
     </context>
   </template>
   <template name="ImagePickerIOS" value="ImagePickerIOS" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-      <option name="JSX_HTML" value="false" />
-    </context>
-  </template>
-  <template name="KeyboardAvoidingView" value="KeyboardAvoidingView" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JSX_HTML" value="false" />
@@ -606,10 +594,10 @@
     </context>
   </template>
   <template name="TVEventHandler" value="TVEventHandler" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
-      <context>
-          <option name="JAVA_SCRIPT" value="true" />
-          <option name="JSX_HTML" value="false" />
-      </context>
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
   </template>
   <template name="UIManager" value="UIManager" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
     <context>
@@ -618,10 +606,10 @@
     </context>
   </template>
   <template name="unstable_batchedUpdates" value="unstable_batchedUpdates" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
-      <context>
-          <option name="JAVA_SCRIPT" value="true" />
-          <option name="JSX_HTML" value="false" />
-      </context>
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
   </template>
   <template name="VibrationIOS" value="VibrationIOS" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
     <context>
@@ -672,10 +660,10 @@
     </context>
   </template>
   <template name="takeSnapshot" value="takeSnapshot" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
-      <context>
-          <option name="JAVA_SCRIPT" value="true" />
-          <option name="JSX_HTML" value="false" />
-      </context>
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
   </template>
   <template name="ColorPropType" value="ColorPropType" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
     <context>
@@ -696,10 +684,10 @@
     </context>
   </template>
   <template name="ViewPropTypes" value="ViewPropTypes" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
-      <context>
-          <option name="JAVA_SCRIPT" value="true" />
-          <option name="JSX_HTML" value="false" />
-      </context>
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
   </template>
   <template name="constructor" value="constructor(props) {&#10;  super(props);&#10;  this.state = {};&#10;}" description="React Native ES6 Class constructor func" toReformat="false" toShortenFQNames="true">
     <context>
