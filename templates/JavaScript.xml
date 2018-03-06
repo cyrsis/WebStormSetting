@@ -84,4 +84,20 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="arrayarrayindexof" value="$array$[$array$.indexOf($1$)] = 2" description="$array$[$array$.indexOf($1$)] = 2" toReformat="true" toShortenFQNames="true">
+    <variable name="array" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="newslice" value="var $newarray$ = $array$.slice($2$,$3$)" description="var $newarray$ = $array$.slice($2$,$3$)" toReformat="true" toShortenFQNames="true">
+    <variable name="newarray" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="array" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
