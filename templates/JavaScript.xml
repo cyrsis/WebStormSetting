@@ -69,4 +69,19 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="newarray" value="var $array$ = [$1$,$2$,$3$]&#10;" description="var $array$ = [$1$,$2$,$3$]" toReformat="true" toShortenFQNames="true">
+    <variable name="array" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sout" value="console.log($array$)" description="console.log($array$)" toReformat="true" toShortenFQNames="true">
+    <variable name="array" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
